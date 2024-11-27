@@ -1,0 +1,17 @@
+spring:
+  thymeleaf:
+    cache: false
+  jmx:
+    enabled: false
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/boot1?serverTimezone=Asia/Tokyo
+    username: root
+    
+    
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase: true
+    
+    # ymlにはSpringBootアプリケーションとMySQLをつなげるための設定を記述する
+    # 命名規則は特に決まりがない？
